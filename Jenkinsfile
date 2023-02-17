@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('form_test') {
             steps {
-                pysh 'python Tests\form_test.py'
+                bat 'python Tests\form_test.py'
                 }
             }
         }
