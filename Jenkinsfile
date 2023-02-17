@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('form_test') {
             steps {
-                bat 'C:/Python310/python.exe Tests/form_test.py'
+                bat 'python Tests/form_test.py'
                 }
             }
         }
