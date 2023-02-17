@@ -5,6 +5,9 @@ pipeline {
       steps {
         bat 'C:/Python310/python.exe Tests/form_test.py'
       }
+      steps {
+        pysh 'form_test.py'
+      }
     }
   }
 }
